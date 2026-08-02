@@ -36,7 +36,7 @@ const Footer = () => {
                     </motion.p>
                   <div className="flex space-x-4 text-xl mt-4 w-5 h-5">
   <a
-    href="https://www.instagram.com/shubham__rana78/"
+    href="https://www.instagram.com/chetanseth._/"
     target="_blank"
     rel="noopener noreferrer"
     className="text-black-200 hover:text-blue-500" 
@@ -45,7 +45,7 @@ const Footer = () => {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/subham-rana-72a5832b1/"
+    href="https://www.linkedin.com/in/chetan-seth-b3b266302//"
     target="_blank"
     rel="noopener noreferrer"
     className="text-black-200 hover:text-blue-500"
@@ -104,10 +104,10 @@ const Footer = () => {
                 <div>
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Contact</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
-                        <li>Expore Wheel</li>
-                        <li>Rajouri Garden </li>
-                        <li>+91 9891827647</li>
-                        <li>shubham@example.com</li>
+                        <li>Luxeride Rentals</li>
+                        <li>Paschim Vihar </li>
+                        <li>+91 9810919982</li>
+                        <li>chetanseth2004@gmail.com</li>
                     </ul>
                 </div>
 
