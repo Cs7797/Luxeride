@@ -1,10 +1,91 @@
-# Luxeride
-Car Rental Web Application | Full Stack MERN Project
+#LUXERIDE
 
-Developed a responsive full-stack car rental platform using React.js, Node.js, Express.js, and MongoDB, enabling users to browse available vehicles, view detailed car information, and make online booking requests through an intuitive interface.
-Designed and implemented secure user authentication, role-based access control, and RESTful APIs to support user management, vehicle listings, booking workflows, and efficient communication between the frontend and backend.
-Built an administrative dashboard to manage vehicles, bookings, and customer information using complete CRUD operations, ensuring seamless data management and real-time updates through MongoDB.
-Created a modern, mobile-responsive user interface with React.js and Tailwind CSS, improving usability and delivering a consistent experience across desktop and mobile devices.
-Followed clean coding practices, component-based architecture, and Git version control while gaining hands-on experience with API integration, database management, and end-to-end full-stack application development.
+A full-stack car rental booking application built with the MERN stack. The platform allows users to browse cars, check their details, choose pickup and booking dates, and manage their bookings.
 
-Tools & Technologies: React.js, Node.js, Express.js, MongoDB, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, REST APIs, Git, GitHub, Visual Studio Code, Vite
+It also includes an owner dashboard for managing the car inventory and viewing bookings. ImageKit is used for handling car images, while JWT is used for user authentication.
+
+## Features
+
+### User Features
+
+- User registration and login
+- JWT-based authentication
+- Browse available cars
+- Search and filter cars
+- View detailed information about a car
+- Select pickup location
+- Select pickup and booking dates
+- Book a car
+- View personal bookings
+- Manage existing bookings
+
+### Owner Dashboard
+
+- Owner authentication
+- Add new cars
+- Upload car images
+- Manage listed cars
+- View booking information
+- Manage car availability
+- View rental activity through the dashboard
+
+### Other Features
+
+- Responsive UI
+- Image upload and optimization using ImageKit
+- Protected routes
+- REST API based backend
+- MongoDB database
+- Date-based booking system
+- Form validation
+- Deployment-ready frontend and backend
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- React Router
+- Axios
+- Tailwind CSS
+- JavaScript
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- REST APIs
+
+### Services
+
+- ImageKit - Image storage and optimization
+- MongoDB Atlas - Cloud database
+
+---
+
+## Application Flow
+
+The application is divided into two main parts: the customer side and the owner side.
+
+```text
+                         Car Rental Platform
+                                  |
+                 +----------------+----------------+
+                 |                                 |
+              Customer                           Owner
+                 |                                 |
+        Browse Available Cars              Owner Dashboard
+                 |                                 |
+          View Car Details                  Add / Manage Cars
+                 |                                 |
+         Select Booking Dates               View Bookings
+                 |                                 |
+             Book Car                       Manage Inventory
+                 |
+          View My Bookings
