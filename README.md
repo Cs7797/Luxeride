@@ -1,4 +1,4 @@
-#LUXERIDE
+# Luxeride
 
 A full-stack car rental booking application built with the MERN stack. The platform allows users to browse cars, check their details, choose pickup and booking dates, and manage their bookings.
 
