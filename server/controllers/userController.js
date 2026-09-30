@@ -66,13 +66,33 @@ export const getUserData = async (req, res) =>{
     }
 }
 
+export const getCars = async (req, res) => {
+  try {
+    const cars = await Car.find({});
+
+    console.log("Cars found:", cars.length);
+    console.log(cars);
+
+    res.json({
+      success: true,
+      cars,
+    });
+  } catch (error) {
+    console.error("Get Cars Error:", error.message);
+
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
 // Get All Cars for the Frontend
-export const getCars = async (req, res) =>{
-    try {
-        const cars = await Car.find({isAvaliable: true})
-        res.json({success: true, cars})
-    } catch (error) {
-        console.log(error.message);
-        res.json({success: false, message: error.message})
-    }
-}
+// export const getCars = async (req, res) =>{
+//     try {
+//         const cars = await Car.find({isAvaliable: true})
+//         res.json({success: true, cars})
+//     } catch (error) {
+//         console.log(error.message);
+//         res.json({success: false, message: error.message})
+//     }
+// }

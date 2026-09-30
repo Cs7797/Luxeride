@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import gmail_logo from "./gmail_logo.svg";
 import facebook_logo from "./facebook_logo.svg";
 import instagram_logo from "./instagram_logo.svg";
 import twitter_logo from "./twitter_logo.svg";
 import menu_icon from "./menu_icon.svg";
+
 import search_icon from "./search_icon.svg"
 import close_icon from "./close_icon.svg"
 import users_icon from "./users_icon.svg"
@@ -85,7 +86,8 @@ export const assets = {
     user_profile,
     car_image2,
     car_image3,
-    car_image4
+    car_image4,
+    
 }
 
 export const menuLinks = [
