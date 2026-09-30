@@ -6,7 +6,8 @@ LuxeRide allows users to browse and book cars through a clean, responsive interf
 
 ## 🌐 Live Website
 
-**[Visit LuxeRide](https://luxeride-main.vercel.app)**
+**Visit LuxeRide**
+[https://luxeride-main.vercel.app]
 
 ---
 
