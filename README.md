@@ -4,7 +4,7 @@ A modern full-stack car rental platform built with the MERN stack.
 
 LuxeRide allows users to browse and book cars through a clean, responsive interface, while car owners can manage their vehicles, availability, and bookings through a dedicated dashboard.
 
-## 🌐 Live Demo
+## 🌐 Live Website
 
 **[Visit LuxeRide](https://luxeride-main.vercel.app)**
 
